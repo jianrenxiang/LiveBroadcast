@@ -14,6 +14,8 @@
 		77631F721E9F501600FA2C87 /* LBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 77631F711E9F501600FA2C87 /* LBUtils.m */; };
 		77631F751E9F5ABA00FA2C87 /* UIView+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = 77631F741E9F5ABA00FA2C87 /* UIView+Tap.m */; };
 		77631F781E9F695800FA2C87 /* LBBaseTableHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77631F771E9F695800FA2C87 /* LBBaseTableHeaderFooterView.m */; };
+		776432C81EA06D58004947A8 /* LBHomeHeaderOptionalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 776432C71EA06D58004947A8 /* LBHomeHeaderOptionalView.m */; };
+		776432CB1EA07667004947A8 /* LBCustomSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 776432CA1EA07667004947A8 /* LBCustomSlideViewController.m */; };
 		776587031E9CCDC600E11A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 776587021E9CCDC600E11A25 /* main.m */; };
 		776587061E9CCDC600E11A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 776587051E9CCDC600E11A25 /* AppDelegate.m */; };
 		776587091E9CCDC600E11A25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 776587081E9CCDC600E11A25 /* ViewController.m */; };
@@ -68,6 +70,10 @@
 		77631F741E9F5ABA00FA2C87 /* UIView+Tap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tap.m"; sourceTree = "<group>"; };
 		77631F761E9F695800FA2C87 /* LBBaseTableHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBaseTableHeaderFooterView.h; sourceTree = "<group>"; };
 		77631F771E9F695800FA2C87 /* LBBaseTableHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBaseTableHeaderFooterView.m; sourceTree = "<group>"; };
+		776432C61EA06D58004947A8 /* LBHomeHeaderOptionalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBHomeHeaderOptionalView.h; sourceTree = "<group>"; };
+		776432C71EA06D58004947A8 /* LBHomeHeaderOptionalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBHomeHeaderOptionalView.m; sourceTree = "<group>"; };
+		776432C91EA07667004947A8 /* LBCustomSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBCustomSlideViewController.h; sourceTree = "<group>"; };
+		776432CA1EA07667004947A8 /* LBCustomSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBCustomSlideViewController.m; sourceTree = "<group>"; };
 		776586FE1E9CCDC600E11A25 /* LiveBroadcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveBroadcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		776587021E9CCDC600E11A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		776587041E9CCDC600E11A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -369,6 +375,8 @@
 			children = (
 				77BA5A451E9DFC900061497E /* HomeViewController.h */,
 				77BA5A461E9DFC900061497E /* HomeViewController.m */,
+				776432C91EA07667004947A8 /* LBCustomSlideViewController.h */,
+				776432CA1EA07667004947A8 /* LBCustomSlideViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -383,6 +391,8 @@
 		776587411E9CD05E00E11A25 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				776432C61EA06D58004947A8 /* LBHomeHeaderOptionalView.h */,
+				776432C71EA06D58004947A8 /* LBHomeHeaderOptionalView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -720,6 +730,7 @@
 				77631F681E9F2D7900FA2C87 /* LBBaseTableViewController.m in Sources */,
 				776587091E9CCDC600E11A25 /* ViewController.m in Sources */,
 				77BA5A531E9DFCDB0061497E /* MessageViewController.m in Sources */,
+				776432CB1EA07667004947A8 /* LBCustomSlideViewController.m in Sources */,
 				77BA5A4D1E9DFCB20061497E /* DiscoverViewController.m in Sources */,
 				77631F6E1E9F3D9100FA2C87 /* LBBaseTableView.m in Sources */,
 				77659BB11E9DF628001943DD /* LBMainNaviViewController.m in Sources */,
@@ -730,6 +741,7 @@
 				77BA5A441E9DFAB50061497E /* LBBaseViewController.m in Sources */,
 				77BA5A561E9E014B0061497E /* LBTabBar.m in Sources */,
 				776587061E9CCDC600E11A25 /* AppDelegate.m in Sources */,
+				776432C81EA06D58004947A8 /* LBHomeHeaderOptionalView.m in Sources */,
 				77BA5A501E9DFCC70061497E /* MineViewController.m in Sources */,
 				77631F6B1E9F2E1000FA2C87 /* LBBaseTableViewCell.m in Sources */,
 				77BA5A471E9DFC900061497E /* HomeViewController.m in Sources */,

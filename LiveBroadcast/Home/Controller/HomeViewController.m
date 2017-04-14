@@ -7,16 +7,26 @@
 //
 
 #import "HomeViewController.h"
-
+#import "LBHomeHeaderOptionalView.h"
 @interface HomeViewController ()
-
+@property(nonatomic,weak)LBHomeHeaderOptionalView *optionalView;
 @end
 
 @implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // 设置导航栏
+    [self setUpItems];
+}
+
+- (void)setUpItems {
+    self.optionalView.titles=@[@"关注",@"附近",@"热门"];
+    self.optionalView.homeHeaderOptionalViewItemClickHandle=^(LBHomeHeaderOptionalView *optionalView,NSString *title,NSInteger currentIndex){
+        NSLog(@"%ld",currentIndex);
+    };
+
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +34,17 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
+- (LBHomeHeaderOptionalView *)optionalView {
+	if(_optionalView == nil) {
+		LBHomeHeaderOptionalView *optional= [[LBHomeHeaderOptionalView alloc] init];
+        optional.size=CGSizeMake(kScreenWidth/3*2, 44);
+        self.navigationItem.titleView=optional;
+        _optionalView = optional;
+        optional.backgroundColor = [UIColor redColor];
+	}
+	return _optionalView;
 }
-*/
 
 @end
