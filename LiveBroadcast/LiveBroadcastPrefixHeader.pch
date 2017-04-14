@@ -1,0 +1,21 @@
+//
+//  LiveBroadcastPrefixHeader.pch
+//  LiveBroadcast
+//
+//  Created by 蚁族 on 2017/4/11.
+//  Copyright © 2017年 蚁族. All rights reserved.
+//
+
+#ifndef LiveBroadcastPrefixHeader_pch
+#define LiveBroadcastPrefixHeader_pch
+#ifdef DEBUG
+#define LBLog(...) NSLog(__VA_ARGS__)
+#else
+#define LBLog(...)
+#endif
+#import "LiveBroadcastHeader.h"
+#import "UIView+Frame.h"
+#import "Masonry.h"
+#import "LBUtils.h"
+#import "UIView+Tap.h"
+#endif /* LiveBroadcastPrefixHeader_pch */
