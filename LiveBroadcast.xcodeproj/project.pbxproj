@@ -26,6 +26,7 @@
 		776587271E9CCDC700E11A25 /* LiveBroadcastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 776587261E9CCDC700E11A25 /* LiveBroadcastUITests.m */; };
 		776587531E9CD1DE00E11A25 /* LBMainTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 776587521E9CD1DE00E11A25 /* LBMainTabbarViewController.m */; };
 		77659BB11E9DF628001943DD /* LBMainNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77659BB01E9DF628001943DD /* LBMainNaviViewController.m */; };
+		7771A7001EA1FE1A0063B08E /* LBHomeBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7771A6FF1EA1FE1A0063B08E /* LBHomeBaseViewController.m */; };
 		77BA5A441E9DFAB50061497E /* LBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BA5A431E9DFAB50061497E /* LBBaseViewController.m */; };
 		77BA5A471E9DFC900061497E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BA5A461E9DFC900061497E /* HomeViewController.m */; };
 		77BA5A4A1E9DFC9D0061497E /* KsingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BA5A491E9DFC9D0061497E /* KsingViewController.m */; };
@@ -96,6 +97,8 @@
 		776587521E9CD1DE00E11A25 /* LBMainTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBMainTabbarViewController.m; sourceTree = "<group>"; };
 		77659BAF1E9DF628001943DD /* LBMainNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBMainNaviViewController.h; sourceTree = "<group>"; };
 		77659BB01E9DF628001943DD /* LBMainNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBMainNaviViewController.m; sourceTree = "<group>"; };
+		7771A6FE1EA1FE1A0063B08E /* LBHomeBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBHomeBaseViewController.h; sourceTree = "<group>"; };
+		7771A6FF1EA1FE1A0063B08E /* LBHomeBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBHomeBaseViewController.m; sourceTree = "<group>"; };
 		77BA5A421E9DFAB50061497E /* LBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBBaseViewController.h; sourceTree = "<group>"; };
 		77BA5A431E9DFAB50061497E /* LBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBBaseViewController.m; sourceTree = "<group>"; };
 		77BA5A451E9DFC900061497E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -375,6 +378,8 @@
 			children = (
 				77BA5A451E9DFC900061497E /* HomeViewController.h */,
 				77BA5A461E9DFC900061497E /* HomeViewController.m */,
+				7771A6FE1EA1FE1A0063B08E /* LBHomeBaseViewController.h */,
+				7771A6FF1EA1FE1A0063B08E /* LBHomeBaseViewController.m */,
 				776432C91EA07667004947A8 /* LBCustomSlideViewController.h */,
 				776432CA1EA07667004947A8 /* LBCustomSlideViewController.m */,
 			);
@@ -740,6 +745,7 @@
 				77BA5A4A1E9DFC9D0061497E /* KsingViewController.m in Sources */,
 				77BA5A441E9DFAB50061497E /* LBBaseViewController.m in Sources */,
 				77BA5A561E9E014B0061497E /* LBTabBar.m in Sources */,
+				7771A7001EA1FE1A0063B08E /* LBHomeBaseViewController.m in Sources */,
 				776587061E9CCDC600E11A25 /* AppDelegate.m in Sources */,
 				776432C81EA06D58004947A8 /* LBHomeHeaderOptionalView.m in Sources */,
 				77BA5A501E9DFCC70061497E /* MineViewController.m in Sources */,

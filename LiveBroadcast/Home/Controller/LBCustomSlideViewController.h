@@ -13,7 +13,7 @@
 @optional
 //滚动偏移量
 -(void)customSlideViewController:(LBCustomSlideViewController *)slideViewController slideOffset:(CGPoint)slideOffset;
--(void)customSlideViewController:(LBCustomSlideViewController *)slideViewController slideOffIndex:(CGPoint)slideIndex;
+-(void)customSlideViewController:(LBCustomSlideViewController *)slideViewController slideOffIndex:(NSInteger)slideIndex;
 @end
 
 @protocol LBCustomSliderViewControllerDataSouer <NSObject>

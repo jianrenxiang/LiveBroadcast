@@ -18,4 +18,6 @@
  */
 @property(nonatomic,copy)void(^homeHeaderOptionalViewItemClickHandle)(LBHomeHeaderOptionalView *optionalView,NSString *title,NSInteger currentIndex);
 
+/** 偏移量*/
+@property (nonatomic, assign) CGPoint contentOffset;
 @end
